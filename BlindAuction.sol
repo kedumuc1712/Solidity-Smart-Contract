@@ -1,5 +1,5 @@
 // https://solidity.readthedocs.io/en/v0.4.24/solidity-by-example.html
-pragma solidity ^0.4.22;
+pragma solidity >0.4.22 <0.5.0;
 
 contract BlindAuction {
 	struct Bid {
